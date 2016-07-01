@@ -9,9 +9,10 @@ namespace AnimaLuv.Models
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public int Age { get; set; }
         public string Type { get; set; }
         public string Outfit { get; set; }
         public string Size { get; set; }
+        public string stuffingMaterial  { get; set; }
+        public string stuffingLevel { get; set; }
     }
 }
