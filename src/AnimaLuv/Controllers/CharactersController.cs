@@ -85,7 +85,7 @@ namespace AnimaLuv.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Age,Outfit,Size,Type,stuffingMaterial,stuffingLevel")] Character character)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Outfit,Size,Type,stuffingMaterial,stuffingLevel")] Character character)
         {
             if (id != character.ID)
             {
