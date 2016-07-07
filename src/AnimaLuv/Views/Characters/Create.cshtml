@@ -19,46 +19,53 @@
             </div>
         </div>
         <div class="form-group">
-            <label asp-for="Outfit" class="col-md-2 control-label">Dress your fuzzy friend!</label>
+            <label asp-for="Color" class="col-md-2 control-label">What color is your fuzzy friend?</label>
             <div class="col-md-10">
-                <input asp-for="Outfit" class="form-control" />
-                <span asp-validation-for="Outfit" class="text-danger" />
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger" />
+            </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Outfit" class="col-md-2 control-label">Dress your fuzzy friend!</label>
+                <div class="col-md-10">
+                    <input asp-for="Outfit" class="form-control" />
+                    <span asp-validation-for="Outfit" class="text-danger" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Size" class="col-md-2 control-label">How big do you want your friend?</label>
+                <div class="col-md-10">
+                    <input asp-for="Size" class="form-control" />
+                    <span asp-validation-for="Size" class="text-danger" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type" class="col-md-2 control-label">What kind of animal is your fuzzy friend?</label>
+                <div class="col-md-10">
+                    <input asp-for="Type" class="form-control" />
+                    <span asp-validation-for="Type" class="text-danger" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="stuffingMaterial" class="col-md-2 control-label">What do you wish to stuff your friend with?</label>
+                <div class="col-md-10">
+                    <input asp-for="stuffingMaterial" class="form-control" />
+                    <span asp-validation-for="stuffingMaterial" class="text-danger" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="stuffingLevel" class="col-md-2 control-label">How stuffed should your friend be?</label>
+                <div class="col-md-10">
+                    <input asp-for="stuffingLevel" class="form-control" />
+                    <span asp-validation-for="stuffingLevel" class="text-danger" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <label asp-for="Size" class="col-md-2 control-label">How big do you want your friend?</label>
-            <div class="col-md-10">
-                <input asp-for="Size" class="form-control" />
-                <span asp-validation-for="Size" class="text-danger" />
-            </div>
-        </div>
-        <div class="form-group">
-            <label asp-for="Type" class="col-md-2 control-label">What kind of animal is your fuzzy friend?</label>
-            <div class="col-md-10">
-                <input asp-for="Type" class="form-control" />
-                <span asp-validation-for="Type" class="text-danger" />
-            </div>
-        </div>      
-        <div class="form-group">
-            <label asp-for="stuffingMaterial" class="col-md-2 control-label">What do you wish to stuff your friend with?</label>
-            <div class="col-md-10">
-                <input asp-for="stuffingMaterial" class="form-control" />
-                <span asp-validation-for="stuffingMaterial" class="text-danger" />
-            </div>
-        </div>
-        <div class="form-group">
-            <label asp-for="stuffingLevel" class="col-md-2 control-label">How stuffed should your friend be?</label>
-            <div class="col-md-10">
-                <input asp-for="stuffingLevel" class="form-control" />
-                <span asp-validation-for="stuffingLevel" class="text-danger" />
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
-        </div>
-    </div>
 </form>
 
 <div>

@@ -20,6 +20,13 @@
             </div>
         </div>
         <div class="form-group">
+            <label asp-for="Color" class="col-md-2 control-label">What color is your fuzzy friend?</label>
+            <div class="col-md-10">
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
             <label asp-for="Outfit" class="col-md-2 control-label">Dress your fuzzy friend!</label>
             <div class="col-md-10">
                 <input asp-for="Outfit" class="form-control" />
